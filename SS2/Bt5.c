@@ -10,7 +10,7 @@ int main(){
     printf("Nhap chieu rong: ");
     scanf("%d", &cr);
 
-    printf("Chu vi hinh vuong la: %d\n", (cd + cr) * 2);
-    printf("Dien tich hinh vuong la: %d", cd * cr);
+    printf("Chu vi hinh chu nhat la: %d\n", (cd + cr) * 2);
+    printf("Dien tich hinh chu nhat la: %d", cd * cr);
     return 0;
 }
