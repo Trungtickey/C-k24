@@ -23,11 +23,11 @@ int main(){
             return 1;
         }
 
-        // Tính tổng các chữ số
-        while (number > 0) {
-            sum += number % 10; // Lấy chữ số cuối cùng
-            number /= 10;       // Loại bỏ chữ số cuối cùng
-        }
+        if ()
+//        while (number > 0) {
+//            sum += number % 10; // Lấy chữ số cuối cùng
+//            number /= 10;       // Loại bỏ chữ số cuối cùng
+//        }
 
         // Hiển thị tổng các chữ số
         printf("Tong cac chu so: %d\n", sum);
