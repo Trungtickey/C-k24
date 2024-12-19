@@ -3,7 +3,7 @@
 int main() {
     int n;
     int arr[100];
-    printf("Nhap so phan tu cua mang (toi đa 100): ");
+    printf("Nhap so phan tu cua mang (toi da 100): ");
     scanf("%d", &n);
 
     if (n <= 0 || n > 100) {

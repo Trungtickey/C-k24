@@ -1,6 +1,6 @@
 #include <stdio.h>
 // Có 2 cách khai báo hằng số
-// #dèine MAX_SIZE = 10;
+// #define MAX_SIZE = 10;
 // const MAX = 10;
 
 

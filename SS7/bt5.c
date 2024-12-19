@@ -12,8 +12,8 @@ int main() {
             min = arr[i];
         }
     }
-    printf("Phần tử lớn nhất trong mảng là: %d\n", max);
-    printf("Phần tử nhỏ nhất trong mảng là: %d\n", min);
+    printf("Phan tu lon nhat trong mang la: %d\n", max);
+    printf("Phần tử nho nhat trong mang la: %d\n", min);
 
     return 0;
 }
