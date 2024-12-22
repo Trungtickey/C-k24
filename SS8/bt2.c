@@ -6,7 +6,7 @@
 int main() {
     int arr[] = {1, 2, 3, 4, 5};
     int x, n = sizeof(arr) / sizeof(arr[0]);
-    printf("Nhap vao phan tu can kiem tra: ");
+    printf("Nhap vao phan tu can kiem tra x: ");
     scanf("%d", &x);
 
     int check = 0;
