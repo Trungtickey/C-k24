@@ -15,7 +15,7 @@ int main() {
         }
     }
 
-    printf("Tong cac so le la: %d\n", sumOdd);
+    printf("Tong cac so le la   : %d\n", sumOdd);
 
     return 0;
 }
