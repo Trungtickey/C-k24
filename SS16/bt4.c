@@ -10,7 +10,6 @@ void printArr(int *array, int length){
     }
     printf("\n");
 }
-
 int main(){
     int arr[] = {1,3,5,7,2, 4, 6, };
     int length = sizeof(arr)/sizeof(int);
