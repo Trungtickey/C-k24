@@ -6,6 +6,6 @@ int main(){
     char kyTu = 'a';
     double c;
     printf("Nhập tất cả các số: ");
-    scanf("%d %d %c %d", &a, &d, &b, &c);
+    scanf("%d %f %c %lf", &a, &d, &kyTu, &c);
     return 0;
 }
