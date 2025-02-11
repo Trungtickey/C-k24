@@ -206,7 +206,8 @@ void menu() {
             break;
             case 8: displayRevenue();
             break;
-            case 9: printf("Da thoat khoi chuong trinh\n"); break;
+            case 9: printf("Da thoat khoi chuong trinh\n");
+            break;
             default: printf("Lua chon khong hop le, Vui long nhap lai!\n");
         }
     } while (choice != 9);
