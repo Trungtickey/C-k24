@@ -10,7 +10,7 @@ typedef struct{
 }Date;
 
 typedef struct{
-    int bookId[10];
+    char bookId[10];
     char title[30];
     char author[20];
     int quantity;

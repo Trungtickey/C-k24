@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include "function.c"
-#include "datatype.h"
+
 
 int main(){
+    loadFromFile();
     int choice;
     do{
         printf("\n*********MENU*********\n");
@@ -10,7 +11,9 @@ int main(){
         printf("2. Hien thi danh sach sach\n");
         printf("3. Nhap ID sach can sua\n");
         printf("4. Xoa sach\n");
-        printf("5. Thoat\n");
+        printf("5. Sap xep sach theo gia tien\n");
+        printf("6. Tim kiem sach\n");
+        printf("7. Thoat\n");
         printf("Nhap lua chon cua ban: ");
         scanf("%d", &choice);
         switch(choice){
@@ -21,14 +24,22 @@ int main(){
                 displayBooks();
                 break;
             case 3:
-
+                editBook();
                 break;
             case 4:
+                deleteBook();
                 break;
             case 5:
+                sortBooks();
+                break;
+            case 6:
+                searchBook();
+                break;
+            case 7:
+                printf("Da thoat khoi chuong trinh");
                 break;
             default:
                 printf("Lua chon khong hop le. Vui long chon lai!");
         }
-    }while(choice!=5);
+    }while(choice!=7);
 }
